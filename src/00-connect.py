@@ -3,6 +3,10 @@ import openai
 import requests
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
+# Create a completion using the OpenAI SDK.
+
+# Example from the docs.
+
 completion = openai.ChatCompletion.create(
   model="gpt-3.5-turbo",
   messages=[
